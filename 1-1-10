@@ -1,0 +1,6 @@
+steps = int(input())
+rez = 0
+for i in range(steps):
+    num = int(input())
+    rez += num
+print(rez)
